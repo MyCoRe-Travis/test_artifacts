@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.mycore.common.log4j2.lookups.MCRUserInformationLookupTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.623 s - in org.mycore.common.log4j2.lookups.MCRUserInformationLookupTest

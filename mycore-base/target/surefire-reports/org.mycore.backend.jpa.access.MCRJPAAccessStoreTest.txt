@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.mycore.backend.jpa.access.MCRJPAAccessStoreTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.826 s - in org.mycore.backend.jpa.access.MCRJPAAccessStoreTest

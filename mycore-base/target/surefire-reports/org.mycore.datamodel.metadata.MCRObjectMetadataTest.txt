@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.mycore.datamodel.metadata.MCRObjectMetadataTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 2.558 s - in org.mycore.datamodel.metadata.MCRObjectMetadataTest

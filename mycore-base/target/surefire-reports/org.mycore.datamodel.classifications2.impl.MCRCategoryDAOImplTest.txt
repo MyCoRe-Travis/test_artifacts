@@ -1,0 +1,233 @@
+-------------------------------------------------------------------------------
+Test set: org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest
+-------------------------------------------------------------------------------
+Tests run: 45, Failures: 0, Errors: 31, Skipped: 0, Time elapsed: 22.357 s <<< FAILURE! - in org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.replaceCategory  Time elapsed: 0.505 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:113)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.addCategorySingleSteps  Time elapsed: 0.236 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.addCategorySingleSteps  Time elapsed: 0.236 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.deleteMultipleCategories  Time elapsed: 0.307 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.deleteMultipleCategories  Time elapsed: 0.311 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.moveCategoryInParent  Time elapsed: 0.204 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.moveCategoryInParent  Time elapsed: 0.207 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.testClassEditorBatch  Time elapsed: 0.279 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.testClassEditorBatch  Time elapsed: 0.282 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getCategoriesByLabel  Time elapsed: 0.223 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getCategoriesByLabel  Time elapsed: 0.224 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setLabel  Time elapsed: 0.22 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setLabel  Time elapsed: 0.223 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.deleteSubCategory  Time elapsed: 0.223 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.deleteSubCategory  Time elapsed: 0.223 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.moveCategoryDeep  Time elapsed: 0.282 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.moveCategoryDeep  Time elapsed: 0.284 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.testLicenses  Time elapsed: 0.247 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.testLicenses  Time elapsed: 0.249 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.children  Time elapsed: 0.17 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.children  Time elapsed: 0.172 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.replaceCategoryWithAdoption  Time elapsed: 0.201 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.replaceCategoryWithAdoption  Time elapsed: 0.203 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryIDs  Time elapsed: 0.23 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryIDs  Time elapsed: 0.23 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getCategory  Time elapsed: 0.19 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getCategory  Time elapsed: 0.192 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategory  Time elapsed: 0.217 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategory  Time elapsed: 0.217 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategories  Time elapsed: 0.252 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Schema "JUNIT" already exists; SQL statement:
+create schema junit [90078-199]
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.setUp(MCRCategoryDAOImplTest.java:89)
+
+org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategories  Time elapsed: 0.253 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.getRootCategoryFromSession(MCRCategoryDAOImplTest.java:695)
+	at org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest.tearDown(MCRCategoryDAOImplTest.java:98)
+

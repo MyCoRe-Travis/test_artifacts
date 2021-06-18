@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.mycore.services.packaging.MCRPackerManagerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.103 s - in org.mycore.services.packaging.MCRPackerManagerTest

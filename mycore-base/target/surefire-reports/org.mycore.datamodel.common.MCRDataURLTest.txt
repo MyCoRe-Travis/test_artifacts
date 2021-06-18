@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.mycore.datamodel.common.MCRDataURLTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.103 s - in org.mycore.datamodel.common.MCRDataURLTest

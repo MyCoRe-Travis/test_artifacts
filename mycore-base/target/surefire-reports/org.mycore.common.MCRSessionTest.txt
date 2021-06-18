@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.mycore.common.MCRSessionTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.905 s - in org.mycore.common.MCRSessionTest

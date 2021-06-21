@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.693 s - in org.mycore.datamodel.classifications2.impl.MCRCategoryDAOImplTest

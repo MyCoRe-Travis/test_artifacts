@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.mycore.datamodel.common.MCRXMLMetadataManagerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.203 s - in org.mycore.datamodel.common.MCRXMLMetadataManagerTest
